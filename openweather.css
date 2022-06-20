@@ -1,0 +1,60 @@
+.forecast{
+    display: flex;
+    flex-direction: column;
+}
+
+.current{
+    width: 510px;
+    margin: auto;
+    background-color: rgb(116, 148, 196);
+    color: #ffffff;
+    font-size: 20px;
+    padding: 15px;
+}
+
+.weather::after{
+    padding-left: 5px;
+    content: '°C';
+}
+
+.imgce{
+    display: flex;
+    margin: auto;
+}
+
+h2{
+    text-align: center;
+}
+
+.forecast{
+    width: 500px;
+    margin: auto;
+    padding: 20px;
+    background-color: rgb(125, 120, 177);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.weatherforecast{
+    color: #ffffff;
+    font-size: 25px;
+    margin: 5px;
+    width: 40%;
+}
+
+.weatherforecast::after{
+    padding-left: 5px;
+    content: '°C';
+}
+
+.time{
+    color: #ffffff;
+    border-bottom: solid 1px #ffffff;
+    width: 40%;
+    font-size: 20px;
+}
+
+.imgcebott{
+    width: 10%;
+}
